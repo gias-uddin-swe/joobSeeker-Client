@@ -19,3 +19,15 @@
 #last-child img {
   width: 50px;
 }
+.title {
+  float: left;
+  /* margin-left: 30px; */
+  padding: 15px;
+  color: #2b2eff;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .title {
+    display: none !important;
+  }
+}

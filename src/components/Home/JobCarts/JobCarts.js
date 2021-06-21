@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import "./JobCarts.css";
 import ReactPaginate from "react-paginate";
+import ModalPopUp from "../../Modal/ModalPopUp";
 
 const JobCarts = () => {
   const [jobs, setJobs] = useState([]);
@@ -26,6 +27,18 @@ const JobCarts = () => {
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
+
+  //modal code here
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   const [pageNumber, setPageNumber] = useState(0);
 
   const usersPerPage = 20;
@@ -53,7 +66,11 @@ const JobCarts = () => {
                   <p>{pd.requirements}</p>
                 </div>
               </div>
-              <button className="btn btn-info w-50 mt-3">Apply</button>
+              <ModalPopUp
+                modalIsOpen={modalIsOpen}
+                closeModal={closeModal}
+              ></ModalPopUp>
+              <button onClick={openModal} className="btn btn-info w-50 mt-3">Apply</button>
             </div>
           </div>
         </div>

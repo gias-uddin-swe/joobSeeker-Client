@@ -42,6 +42,7 @@ const MenuBar = () => {
     <div>
       <nav>
         <div className=" text-right ml-auto menu-div">
+          <h1 className=" title d-inline col-md-4 col-sm-6">JoobSeeker-BD</h1>
           <Link to="/home">
             <li className="items">Home</li>
           </Link>
