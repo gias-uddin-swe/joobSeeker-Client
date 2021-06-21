@@ -1,0 +1,60 @@
+.carts {
+  width: 80%;
+  height: 350px;
+  border: 1px solid gray;
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
+}
+.search-box {
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+.search-btn {
+  width: 80px;
+  height: 40px;
+  border: none;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.search-div {
+  width: 282px;
+  height: 45px;
+  border: 1px solid gray;
+  margin: auto;
+  border-radius: 5px;
+}
+.search-div:focus {
+  border: none;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin: auto;
+  margin-top: 100px;
+}
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}

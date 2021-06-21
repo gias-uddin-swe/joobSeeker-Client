@@ -1,0 +1,20 @@
+.admin-btn {
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.pendingJobs-btn {
+  background-color: rgb(32, 170, 189);
+}
+.pendingJobs-btn:hover {
+  background-color: rgb(14, 134, 150);
+}
+.approvedJobs-btn {
+  background-color: rgb(22, 219, 88);
+}
+.approvedJobs-btn:hover {
+  background-color: rgb(11, 146, 56);
+}

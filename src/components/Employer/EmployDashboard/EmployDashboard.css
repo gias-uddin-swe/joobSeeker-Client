@@ -1,0 +1,30 @@
+.post-button {
+  width: 200px;
+  height: 70px;
+  background-color: rgb(169, 15, 207);
+  border-radius: 20px;
+  border: none;
+  margin-top: 50px;
+  transition: 0.5s;
+}
+.post-button:hover {
+  background-color: rgb(127, 10, 156);
+}
+.myJobs-btn {
+  width: 200px;
+  height: 70px;
+  background-color: rgb(15, 207, 181);
+  border-radius: 20px;
+  border: none;
+  margin-top: 50px;
+  transition: 0.5s;
+}
+.myJobs-btn:hover {
+  background-color: rgb(17, 155, 136);
+}
+.myJobs-btn:focus {
+  background-color: rgb(240, 66, 101);
+}
+.post-button:focus {
+  background-color: rgb(240, 66, 101);
+}

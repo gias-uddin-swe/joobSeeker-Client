@@ -1,0 +1,9 @@
+.login-main {
+  margin-top: 70px;
+}
+.post-submit-btn {
+  background-color: rgb(26, 201, 201);
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+}

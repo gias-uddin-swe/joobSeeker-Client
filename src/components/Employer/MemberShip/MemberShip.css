@@ -1,0 +1,18 @@
+.package {
+  width: 300px;
+  height: 250px;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  text-align: center;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+.package img {
+  width: 80px;
+  padding: 10px;
+}
+.membership-main {
+}
+.plan-title {
+  margin-top: 100px;
+}

@@ -1,0 +1,36 @@
+.home-div {
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(45deg, cyan, yellow, tomato);
+}
+.login-button {
+  margin-top: 150px;
+}
+.home-btn {
+  width: 250px;
+  height: 100px;
+  padding: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.employee-btn {
+  background-color: cyan;
+}
+.seeker-btn {
+  background-color: rgb(211, 65, 216);
+  color: white;
+}
+.home-btn:hover {
+  box-shadow: 10px 10px 20px gray;
+}
+.login-title {
+  color: blue;
+}

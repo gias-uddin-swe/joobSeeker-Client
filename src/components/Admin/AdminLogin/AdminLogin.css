@@ -1,0 +1,9 @@
+.admin-login {
+  width: 300px;
+  height: 350px;
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
